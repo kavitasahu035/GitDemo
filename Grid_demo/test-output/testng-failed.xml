@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Grid Test Suite]">
+  <test thread-count="5" parallel="tests" name="Admin login Test case on Gecko(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="demo.AdminLoginTest">
+        <methods>
+          <include name="CheckAdminLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- demo.AdminLoginTest -->
+    </classes>
+  </test> <!-- Admin login Test case on Gecko(failed) -->
+</suite> <!-- Failed suite [Grid Test Suite] -->
